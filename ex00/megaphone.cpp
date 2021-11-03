@@ -6,14 +6,13 @@
 /*   By: lrocca <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/27 20:52:06 by lrocca            #+#    #+#             */
-/*   Updated: 2021/10/29 19:23:31 by lrocca           ###   ########.fr       */
+/*   Updated: 2021/10/30 14:44:24 by lrocca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 
-int	main(int ac, char **av)
-{
+int	main(int ac, char **av) {
 	(void)(av);
 	if (ac == 1)
 		std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *";
