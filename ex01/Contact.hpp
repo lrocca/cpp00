@@ -6,7 +6,7 @@
 /*   By: lrocca <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 21:25:21 by lrocca            #+#    #+#             */
-/*   Updated: 2021/10/30 15:53:07 by lrocca           ###   ########.fr       */
+/*   Updated: 2021/11/04 17:19:14 by lrocca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ class Contact {
 	public:
 		Contact();
 		~Contact();
-		// void	set(std::string firstName, )
+		void	prompt(void);
 		void	print(int index) const;
 };
 

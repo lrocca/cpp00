@@ -6,7 +6,7 @@
 /*   By: lrocca <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 20:11:26 by lrocca            #+#    #+#             */
-/*   Updated: 2021/10/30 14:47:13 by lrocca           ###   ########.fr       */
+/*   Updated: 2021/11/04 17:30:55 by lrocca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,13 +15,18 @@
 
 # include "Contact.hpp"
 
-class Phonebook {
+# define	BOOK_SIZE	8
+
+class PhoneBook {
 	private:
-		Contact	_contacts[8];
+		Contact	_contacts[BOOK_SIZE];
+		int		_index;
+		int		_saved;
+
 		void	_print() const;
 	public:
-		Phonebook();
-		~Phonebook();
+		PhoneBook();
+		~PhoneBook();
 		void	search() const;
 		void	add();
 };
