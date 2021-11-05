@@ -6,7 +6,7 @@
 /*   By: lrocca <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 19:38:49 by lrocca            #+#    #+#             */
-/*   Updated: 2021/11/04 20:14:36 by lrocca           ###   ########.fr       */
+/*   Updated: 2021/11/05 22:08:48 by lrocca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@ int	main(void) {
 	PhoneBook	phonebook;
 	std::string	cmd;
 
-	std::cout << "Welcome to Crappy Awesome PhoneBook" << std::endl;
-	std::cout << "-----------------------------------" << std::endl;
+	std::cout	<< "Welcome to Crappy Awesome PhoneBook" << std::endl
+				<< "-----------------------------------" << std::endl;
 
 	while (1) {
 		std::cout << "phonebook$ ";
@@ -36,6 +36,7 @@ int	main(void) {
 		else if (!cmd.compare("SEARCH"))
 			phonebook.search();
 		else
-			std::cout << "Command not found. Try ADD, SEARCH or EXIT." << std::endl;
+			std::cout	<< "Command not found. Try ADD, SEARCH or EXIT."
+						<< std::endl;
 	}
 }

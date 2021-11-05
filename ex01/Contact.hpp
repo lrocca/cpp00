@@ -6,7 +6,7 @@
 /*   By: lrocca <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 21:25:21 by lrocca            #+#    #+#             */
-/*   Updated: 2021/11/04 17:19:14 by lrocca           ###   ########.fr       */
+/*   Updated: 2021/11/05 20:28:01 by lrocca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,8 @@ class Contact {
 		Contact();
 		~Contact();
 		void	prompt(void);
-		void	print(int index) const;
+		void	printRow(int index) const;
+		void	printDetails(void) const;
 };
 
 #endif
