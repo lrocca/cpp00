@@ -6,7 +6,7 @@
 #    By: lrocca <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/29 19:38:09 by lrocca            #+#    #+#              #
-#    Updated: 2021/11/05 22:04:58 by lrocca           ###   ########.fr        #
+#    Updated: 2021/11/07 17:15:40 by lrocca           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,6 @@ CFLAGS	=	-Wall -Wextra -Werror
 
 NAME	=	phonebook
 FILES	=	main.cpp PhoneBook.cpp Contact.cpp
-INC		=	PhoneBook.hpp Contact.hpp
 
 OBJ		=	$(FILES:.cpp=.o)
 
