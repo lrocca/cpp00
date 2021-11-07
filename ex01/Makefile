@@ -6,7 +6,7 @@
 #    By: lrocca <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/29 19:38:09 by lrocca            #+#    #+#              #
-#    Updated: 2021/11/07 17:15:40 by lrocca           ###   ########.fr        #
+#    Updated: 2021/11/07 19:24:57 by lrocca           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,7 @@ $(NAME): $(OBJ)
 	$(CC) $(CFLAGS) -c $^ -o $@
 
 clean:
-	$(RM) $(OBJ)
+	$(RM) $(OBJ) $(wildcard *.gch)
 
 fclean: clean
 	$(RM) $(NAME)
