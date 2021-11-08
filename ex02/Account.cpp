@@ -6,7 +6,7 @@
 /*   By: lrocca <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 17:09:38 by lrocca            #+#    #+#             */
-/*   Updated: 2021/11/07 19:04:23 by lrocca           ###   ########.fr       */
+/*   Updated: 2021/11/08 14:59:52 by lrocca           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,9 @@ void	Account::_displayTimestamp(void) {
 }
 
 Account::Account(int initial_deposit): _amount(initial_deposit) {
+	_nbAccounts = 0;
+	_nbWithdrawals = 0;
+
 	_accountIndex = _nbAccounts++;
 	_totalAmount += _amount;
 
